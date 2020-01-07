@@ -1,0 +1,33 @@
+{
+  "name": "melcloud-mqtt",
+  "version": "1.0.0",
+  "description": "A npm package extracting data from Mitsubishi heatpump to MQTT (and other systems)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marval/npm-melcloud.git"
+  },
+  "keywords": [
+    "melcloud",
+    "mitsubishi",
+    "heatpump"
+  ],
+  "author": "Martin Valov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marval/npm-melcloud/issues"
+  },
+  "homepage": "https://github.com/marval/npm-melcloud#readme",
+  "dependencies": {
+    "emoncms": "^1.0.0",
+    "fs": "0.0.1-security",
+    "mqtt": "^3.0.0",
+    "node-cron": "^2.0.3",
+    "request": "^2.88.0",
+    "underscore": "^1.9.2",
+    "winston": "^3.2.1"
+  }
+}

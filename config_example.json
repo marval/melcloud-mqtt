@@ -1,0 +1,20 @@
+{
+  "config": {
+    "language": "0",
+    "username": "PUT USERNAME OF YOUR MELCLOUD ACCOUNT HERE",
+    "password": "PUT PASSWORD OF YOUR MELCLOUD ACCOUNT HERE"
+  },
+  "mqtt": {
+    "host": "",
+    "username": "",
+    "password": "",
+    "clientId": "melcloud-mqtt",
+    "mainTopic": "melcloud-mqtt"
+  },
+  "emonCms": {
+    "url": "",
+    "apiKey": "",
+    "nodeGroupPrefix": "MELCloud_",
+    "dataType": "fulljson"
+  }
+}
